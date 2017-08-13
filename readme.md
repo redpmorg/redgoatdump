@@ -73,20 +73,19 @@ $rg->dump($test);
 
 ## OUTPUT ##
 ~~~~
-<pre>
-<b><small><i> #/var/www/redDump/index.php line:51 </i></small></b>
+#/var/www/redDump/index.php line:51
 NULL
 
-<b><small><i> #/var/www/redDump/index.php line:52 </i></small></b>
+#/var/www/redDump/index.php line:52
 int(1)
 
-<b><small><i> #/var/www/redDump/index.php line:53 </i></small></b>
+#/var/www/redDump/index.php line:53
 "leo" str(3)
 
-<b><small><i> #/var/www/redDump/index.php line:54 </i></small></b>
+#/var/www/redDump/index.php line:54
 array(size=0) 
   [0] => {empty}
-<b><small><i> #/var/www/redDump/index.php line:55 </i></small></b>
+#/var/www/redDump/index.php line:55
 array(size=3) 
   [0] => "leo" str(3)
   [1] => "diana" str(5)
@@ -98,7 +97,7 @@ array(size=3)
       [0] => "aikeon" str(6)
       [1] => "bismarck" str(8)
 
-<b><small><i> #/var/www/redDump/index.php line:58 </i></small></b>
+#/var/www/redDump/index.php line:58
 array(size=3) 
   [0] => array(size=4) 
     [0] => int(1)
@@ -114,7 +113,7 @@ array(size=3)
   [1] => int(9)
   [2] => int(10)
 
-<b><small><i> #/var/www/redDump/index.php line:68 </i></small></b>
+#/var/www/redDump/index.php line:68
 array(size=10) 
   ["key"] => int(1)
   [0] => int(3)
@@ -139,5 +138,5 @@ array(size=10)
   [7] => object(class::stdClass) (1) 
     ["param"] => int(4)
   [8] => object(class::stdClass) (1) 
-</pre>
+
 ~~~~
