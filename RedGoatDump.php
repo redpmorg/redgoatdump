@@ -17,6 +17,13 @@ class RedGoatDump
 		$this->invokeFromArray = false;
 
 		echo (!$this->cli ? "<pre>" : "");
+		
+		$dbg = debug_backtrace();
+		$dbg = $dbg[0];
+		echo (!$this->cli ? "<i><small><b>" : "");
+		echo "#" . $dbg['file'] . " line:" . $dbg["line"] . "\n";
+		echo (!$this->cli ? "</i></small></b>" : "");
+
 		$a = is_array($args) ? true : false;
 		// echo $a ? "array(size=" . count($args) . ") {\n" : "";
 		echo $this->__dump($args);
