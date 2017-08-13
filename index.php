@@ -52,7 +52,22 @@ $rg->dump(null);
 $rg->dump(1);
 $rg->dump('leo');
 $rg->dump([]);
-$rg->dump(["leo", "tibi", ["luca", ["daza", "aikeon"], "bismarck"]]);
-$rg->dump([ [1, 2, 3] ]);
+$rg->dump(["leo", "diana", ["tibi",  "daza", "luca", [ "aikeon", "bismarck"]]]);
+$rg->dump([ 
+            [
+              1, 2, 3, 
+                [ 
+                  4, 5, 
+                    [ 
+                      6, 7, 8 
+                    ] 
+                ] 
+            ],
+            9, 10
+          ]);
 $rg->dump($test);
+
+// echo "<pre>";
+// var_dump($test);
+// echo "</pre>";
 
