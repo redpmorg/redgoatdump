@@ -71,7 +71,7 @@ $rg->dump([
 $rg->dump($test);
 ~~~~
 
-##<OUTPUT>##
+## OUTPUT ##
 ~~~~
 * ** #/var/www/redDump/index.php line:51 ** *
 NULL
