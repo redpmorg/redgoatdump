@@ -73,6 +73,7 @@ $rg->dump($test);
 
 ## OUTPUT ##
 ~~~~
+<pre>
 <b><small><i> #/var/www/redDump/index.php line:51 </i></small></b>
 NULL
 
@@ -138,5 +139,5 @@ array(size=10)
   [7] => object(class::stdClass) (1) 
     ["param"] => int(4)
   [8] => object(class::stdClass) (1) 
-
+</pre>
 ~~~~
